@@ -1,6 +1,6 @@
 {
   "name": "@lunesearch/client",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Lightweight search client for Lunexa — browser, Node.js, and edge runtimes",
   "license": "MIT",
   "author": "Lunexa <contact@ailunexa.com>",
@@ -11,7 +11,14 @@
   },
   "homepage": "https://github.com/koty11/lunesearch/tree/main/packages/client#readme",
   "bugs": "https://github.com/koty11/lunesearch/issues",
-  "keywords": ["search", "lunexa", "typesense", "sdk", "client", "lunesearch"],
+  "keywords": [
+    "search",
+    "lunexa",
+    "typesense",
+    "sdk",
+    "client",
+    "lunesearch"
+  ],
   "sideEffects": false,
   "type": "module",
   "exports": {
@@ -29,7 +36,11 @@
   "main": "./dist/index.cjs",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
-  "files": ["dist", "README.md", "LICENSE"],
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
   "engines": {
     "node": ">=18.0.0"
   },
@@ -46,8 +57,8 @@
     "typecheck": "tsc --noEmit"
   },
   "devDependencies": {
-    "typescript": "^5.7.0",
-    "tsup": "^8.4.0",
-    "vitest": "^3.0.0"
+    "tsup": "^8.5.1",
+    "typescript": "^5.9.3",
+    "vitest": "^4.1.4"
   }
 }
